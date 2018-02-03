@@ -11,4 +11,6 @@ def text_pyramid():
     character=input("enter the character for the pyramid: ")
     
     for i in range(0, number):
-        s=i*character
+        s=character+i*(character*2)
+        print(s.center(number*2, ' '))
+        
